@@ -1,0 +1,49 @@
+form{
+    margin-left: 10px;
+}
+fieldset {
+    
+    border: solid 1px rgb(129, 93, 93);
+    border-radius: 10px;
+    width: 500px;   
+   
+}  
+label{
+    color:  rgb(129, 93, 93);
+    font-size: large;
+    width: auto;
+    padding: 10px;
+}
+input{ 
+   
+    border:none;
+    border-bottom: dotted;
+    color: rgb(172, 138, 138);
+    margin:20px 0px;
+    width:400px
+}
+legend{
+    border:solid 1px rgb(129, 93, 93);
+    border-radius: 5px;
+    background-color: rgba(181, 156, 156, 0.936);
+    color: white;
+    padding: 5px 10px;
+    font-size: large;
+    text-transform:uppercase;
+    margin-left: 10px;
+}
+input#submit{
+    background-color:rgb(129, 93, 93) ;
+    border-radius: 5px;
+    border-bottom: solid;
+    width: 130px;
+    height: 35px;
+    color: white;
+    margin-left: 300px;
+    font-size: 16px;
+}
+input#submit:hover{
+    text-transform: uppercase;
+    text-align: center;
+    
+}

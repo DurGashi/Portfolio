@@ -1,5 +1,5 @@
 .product {
-  display: inline-block;
+  /* display: block; */
   width: 25%;
   border: solid 1px rgb(222, 220, 220);
   margin: 0;
@@ -16,10 +16,19 @@
   background-color: rgb(213, 219, 223);
   margin-bottom: 3%;
   color: rgb(150, 157, 163);
+  position: relative;
+  left: -220px;
+  border-radius: 5%;
 }
 .go-to-gallery:hover {
   background-color: rgb(238, 102, 53);
   color: white;
+}
+.product:hover .go-to-gallery {
+  position: relative;
+  left: 2px;
+  transition: 0.4s;
+  border-radius: 5%;
 }
 .risi-discount {
   display: flex;
